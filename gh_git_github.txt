@@ -1,0 +1,106 @@
+		Complete course on git, gh, github
+
+
+			Github
+	what is github?
+github is a web application or mobile application that is use to keep track 
+of codes, host website, remote collaboration jobs and etc.
+
+Github uses what we call repository to create a project either private project or 
+public project.
+
+	What is public repository?
+public repository are repository that are publicly rendered to the webb or the masses to access,
+modify for their own use.
+
+	What is Private Repository?
+private repository are repository that are private, and accessible only through its encryption 
+which can only be created using specific method call SSH key.
+
+Repository either private or public can also be downloaded or clone using a specific option call
+clone, note this are done from the linux terminal using git or gh terminal tools(software).
+
+when you create a repository it can contain different types of files regarding to what the repo 
+project is all about. To create a repository in your github you have to login fisrt and click on 
+the plus(+)  sysmbol at the right hand side to get a drop down where you can create new repository.
+Now a new page will pop up where you need to give the name of the repo, repo description, repo .gitignore
+if neccessary else live it as none, repo licence if free or not free, you have to choose either creating a
+private or public repo the choice is yours, repo Readme which tells details on how to install and excute the repo project.
+Once set and done then click create to create your repository.
+
+A repo parterning to the name describe what kind of files lives in the repo
+
+To create a file inside a repo, click the add file button, a new page will open and you can give the name of the file
+partaking to what the file is all about, a file also has a description where you describe what the file is all about.
+Then you can choose either this files to be directed to the main branch or master branch which are the same or you can
+select the second choice to create a separate branch for the file and set a pull for that file in the repo, the choice is
+all yours.
+
+The main and master branch are created once a repo is created, but earlier the github set a repo by default to be main when 
+created, but this setting can be changed in the setting option to become master branch or still live it be default to be main.
+The main and master are the same they are the first branch of every repo once created.
+
+More on private and public repo
+A public repo is easy to create and clone thats why people do not find it difficult to understand and people create more of public
+than private repo, a private repo can be fustrating because of its encryption skills needed to clone a private repo, when a private
+repo is created its can easily be accessed from the github website by the creator easily but need abit of skills to clone because
+private repo is clone through an SSH URL.
+
+
+			GH
+
+	What is Gh?
+Gh stands for Github, it is a command line interface (CLI) with cli graphics that allows us to easily communicate and interact
+with the guíthub website from the cammand line or terminal.
+
+	Uses of Gh?
+1) It connect with the github website either by setting up a token connection with the gh and github from the command line or 
+using a one time password to create the connection between the gh and the github for communication. Most people find gh interesting 
+because it allows us to do all the stuffs we usually do in the github website from the terminal, and also the interface is friendly
+because it uses GUI that is easy for people to use.
+
+2)it allows us to create a new repository from the command line rather than creating it in the github website, this one of the great 
+features that makes most people prefer gh than git.
+
+3)it allows us to include all necessary attribute parttaking to the repo we are creating such as licence, Readme, Description, public
+or private repo and gitignore. Once set and done we can clone the repo at that same spot into our local system.
+
+4)it allows us to pull files from the github repo in the termina in to our local working repo.
+
+5)it allows us to push our current working repo back to the github website from the command line.
+
+Other Features concerning pushin and pulling are easily access when usig the gh in the termina such as 
+
+	Push?
+1)adding a file ready for push 
+2)committing a file to keep track of changes in the file
+3)Pushing the file to the specific branch you which to push the file.
+
+	Pull?
+1)Fetch file from the github repo
+2)Merge fetch files to its current update 
+3)Pull file from the github into the local working repo.
+
+The Gh is more user friendly and allows us to do all we do in the github webbsite from the terminal.
+
+
+			Git
+	What is Git?
+Git is a version control software that allows us to manage code changes, and tracking in time.
+Git is a cli software that connect with the github by create a lock in using email and user name.
+
+Github allow us to clone an already created repository in our github webbsite into our local system.
+Github has similar features like the gh such as 
+
+1)It allow us to clone and existing repo but does not allow us to create a repo from the command line.
+2)It allow us to add files to the existing clone repo from our terminal 
+3)It allow us to committ to our added files into the existing repo for tracking code changes in time 
+4)It allows us to push the existing repo and added file back to the github repo
+5)It allow us to pull existing files from the github webbsite and make changes to the and push them back.
+
+    More on Pull? 
+A pull file can only be push back by fetching, merging and pushing.
+
+1)Fetch file from the github repo 
+2)Merge file with the repo or current update
+3)Pull file to the local working repo from the github.    
